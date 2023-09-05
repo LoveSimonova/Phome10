@@ -14,6 +14,9 @@ for i in range(len(lst)):
     else:
         robot.append(0)
         human.append(1)
-data['robot']=robot
-data['human']=human
+data1=pd.DataFrame({'robot':robot})
+data1.head()
+#data1['robot']=robot
+data1['human']=human
 print (data)
+print(data1)
